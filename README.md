@@ -1,6 +1,5 @@
 
-#Distance Between Two Points Calculator
-
+## Distance Between Two Points Calculator
 #Description
 
 This program calculates the distance between two points (x1, y1) and (x2, y2) on a 2D plane
