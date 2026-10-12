@@ -1,4 +1,3 @@
-## Troncillo_ModularCalculator
 
 
 
