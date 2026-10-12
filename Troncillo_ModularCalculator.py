@@ -1,42 +1,35 @@
-
 Num_1 = float(input("Enter your first number"))
 Num_2 = float(input("Enter your second number"))
-Addition = 0
+
 Sum = Num_1 + Num_2
-Subtraction = 0
 Difference = Num_1 - Num_2
-Multiplication = 0 
 Product = Num_1 * Num_2
-Division = 0
-Quotient = Num_1/Num_2
-Operation = int(input("Choose what operation you want to use"))
+Division = Num_1/Num_2
+
+Operation = int(input("Choose an operation"))
+
 if Operation == 1:
     print("You have selected Addition")
-    Addition == 1
-    if Addition == 1:
-        print(Sum)
-        print("Your sum is equal too(Sum)")
+    print(f"Your sum is equal to {Sum}")
+
 elif Operation == 2:
     print("You have selected Subtraction")
-    Subtraction == 1
-    if Subtraction == 1:
-        print(Difference)
-        print("Your difference is equal too (Difference)")
+    print(f"Your difference is equal to {Difference}")
+
 elif Operation == 3:
     print("You have selected Multiplication")
-    Multiplication == 1
-    if Multiplication == 1:
-        print(Product)
-        print("Your product is equal too (Product)")
-    Multiplication == 1
+    print(f"Your product is equal to {Product}")
+
 elif Operation == 4:
     print("You have selected Division")
-    Division == 1
-    if Divison == 1:
-        print(Quotient)
-        print("Your quotient is equal too(Quotient)")
+    if Num_2 != 0:
+        Quotient = Num_1/Num_2
+        print(f"Your quotient is equal to {Quotient}")
+    else:
+        print("sorry you cannot divide by zero")
+
 else:
-    print("That is not a valid operation")
+    print("That is not a valid operation.")
 
 
     
