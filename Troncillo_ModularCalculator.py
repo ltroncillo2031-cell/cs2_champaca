@@ -1,3 +1,4 @@
+
 Num_1 = float(input("Enter your first number"))
 Num_2 = float(input("Enter your second number"))
 Addition = 0
@@ -7,35 +8,37 @@ Difference = Num_1 - Num_2
 Multiplication = 0 
 Product = Num_1 * Num_2
 Division = 0
-Quotient = Num_1/Num_2 
+Quotient = Num_1/Num_2
 Operation = int(input("Choose what operation you want to use"))
 if Operation == 1:
     print("You have selected Addition")
-    Addition == 1: #I will fix later, unsure why the program isnt accepting the colon even though when I try to remove it tells me to add it back
-    if Addition == 1
-    print(Sum)
-    print("Your sum is equal too(Sum)")
+    Addition == 1
+    if Addition == 1:
+        print(Sum)
+        print("Your sum is equal too(Sum)")
 elif Operation == 2:
     print("You have selected Subtraction")
-    Subtraction == 1:
-        if Subtraction == 1
+    Subtraction == 1
+    if Subtraction == 1:
         print(Difference)
         print("Your difference is equal too (Difference)")
 elif Operation == 3:
     print("You have selected Multiplication")
-    Multiplication == 1:
-        if Multiplication == 1
+    Multiplication == 1
+    if Multiplication == 1:
         print(Product)
         print("Your product is equal too (Product)")
     Multiplication == 1
 elif Operation == 4:
     print("You have selected Division")
-    Division == 1:
-        if Divison == 1
+    Division == 1
+    if Divison == 1:
         print(Quotient)
         print("Your quotient is equal too(Quotient)")
 else:
     print("That is not a valid operation")
 
+
+    
 
     
